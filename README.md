@@ -16,7 +16,7 @@ Postman API documentation: https://documenter.getpostman.com/view/5904643/UzBgvV
 To clone the project:
 
 ```bash
-https://github.com/Theshedman/acumen-test.git
+git clone https://github.com/Theshedman/acumen-test.git
 ```
 
 `cd` into the `acumen-test` directory
@@ -90,6 +90,7 @@ yarn install
 #### Very important steps (the project would not run without these steps):
 - create a `.env` file at the root of the project
 - Copy the content of the `.env.sample` file [which is located at the root of the project] to the `.env` file you create above
+- Fill the value for the environments (most importantly the DB credentials)
 
 Now, compile the Typescript files to Javascript:
 ```bash

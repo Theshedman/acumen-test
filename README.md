@@ -90,7 +90,7 @@ yarn install
 #### Very important steps (the project would not run without these steps):
 - create a `.env` file at the root of the project
 - Copy the content of the `.env.sample` file [which is located at the root of the project] to the `.env` file you create above
-- Fill the value for the environments (most importantly the DB credentials)
+- Fill the value for the environments (most importantly the DB credentials which must be PostgreSQL DB)
 
 Now, compile the Typescript files to Javascript:
 ```bash

@@ -80,6 +80,8 @@ docker exec -it acumen yarn test
 
 ## 2. Running the application locally
 
+**Note:** Node v14 and above is recommended.
+
 install project dependencies
 ```
 yarn install

@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/webhooks/webhook.service.test.ts">
-    <testCase name="Webhook Service Unit Test should be defined" duration="23"/>
-    <testCase name="Webhook Service Unit Test should create a new webhook" duration="20"/>
-    <testCase name="Webhook Service Unit Test should throw an error when creating a webhook with a city that does not exist" duration="14"/>
-    <testCase name="Webhook Service Unit Test should delete a webhook by ID" duration="14"/>
-    <testCase name="Webhook Service Unit Test should process webhook event" duration="25"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/repositories/cities/city.repository.test.ts">
-    <testCase name="City Repository Unit Test should be defined" duration="4"/>
-  </file>
   <file path="/home/theshedman/Documents/github/personal/acumen/src/app/repositories/base/base.repository.test.ts">
-    <testCase name="Base Repository Unit Test should be defined" duration="6"/>
+    <testCase name="Base Repository Unit Test should be defined" duration="8"/>
     <testCase name="Base Repository Unit Test should create a new record" duration="14"/>
-    <testCase name="Base Repository Unit Test should find all records" duration="16"/>
-    <testCase name="Base Repository Unit Test should find one record" duration="17"/>
-    <testCase name="Base Repository Unit Test should find one record by id" duration="13"/>
-    <testCase name="Base Repository Unit Test should update a record" duration="24"/>
-    <testCase name="Base Repository Unit Test should delete a record by ID" duration="15"/>
-    <testCase name="Base Repository Unit Test should delete all records" duration="10"/>
-    <testCase name="Base Repository Unit Test should have method create" duration="6"/>
-    <testCase name="Base Repository Unit Test should have method findOne" duration="8"/>
-    <testCase name="Base Repository Unit Test should have method findAll" duration="4"/>
-    <testCase name="Base Repository Unit Test should have method findById" duration="3"/>
-    <testCase name="Base Repository Unit Test should have method update" duration="5"/>
-    <testCase name="Base Repository Unit Test should have method delete" duration="4"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/cities/city.service.test.ts">
-    <testCase name="City Service Unit Test should be defined" duration="5"/>
-    <testCase name="City Service Unit Test should create a new city" duration="14"/>
-    <testCase name="City Service Unit Test should throw an error if city with the same name aldready exists" duration="10"/>
-    <testCase name="City Service Unit Test should update a city" duration="19"/>
-    <testCase name="City Service Unit Test should find a city by params" duration="6"/>
-    <testCase name="City Service Unit Test should delete a city by ID" duration="10"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/webhooks/webhook.controller.test.ts">
-    <testCase name="Webhook Controller Unit Test should be defined" duration="6"/>
-    <testCase name="Webhook Controller Unit Test should create a new webhook for a city" duration="16"/>
-    <testCase name="Webhook Controller Unit Test should throw an error if city does not exist" duration="21"/>
-    <testCase name="Webhook Controller Unit Test should delete webhook by ID" duration="13"/>
-    <testCase name="Webhook Controller Unit Test should throw an error if webhook does not exist" duration="16"/>
+    <testCase name="Base Repository Unit Test should find all records" duration="8"/>
+    <testCase name="Base Repository Unit Test should find one record" duration="10"/>
+    <testCase name="Base Repository Unit Test should find one record by id" duration="9"/>
+    <testCase name="Base Repository Unit Test should update a record" duration="13"/>
+    <testCase name="Base Repository Unit Test should delete a record by ID" duration="14"/>
+    <testCase name="Base Repository Unit Test should delete all records" duration="47"/>
+    <testCase name="Base Repository Unit Test should have method create" duration="34"/>
+    <testCase name="Base Repository Unit Test should have method findOne" duration="9"/>
+    <testCase name="Base Repository Unit Test should have method findAll" duration="35"/>
+    <testCase name="Base Repository Unit Test should have method findById" duration="30"/>
+    <testCase name="Base Repository Unit Test should have method update" duration="33"/>
+    <testCase name="Base Repository Unit Test should have method delete" duration="21"/>
   </file>
   <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/cities/city.controller.test.ts">
-    <testCase name="City Controller Unit Test should be defined" duration="4"/>
-    <testCase name="City Controller Unit Test should create a city" duration="20"/>
-    <testCase name="City Controller Unit Test should throw an error when creating a city that already exists" duration="17"/>
-    <testCase name="City Controller Unit Test should update a city" duration="21"/>
-    <testCase name="City Controller Unit Test should throw an error when updating a city that does not exist" duration="16"/>
-    <testCase name="City Controller Unit Test should delete a city by ID" duration="15"/>
-    <testCase name="City Controller Unit Test should throw an error when deleting a city that does not exist" duration="12"/>
+    <testCase name="City Controller Unit Test should be defined" duration="9"/>
+    <testCase name="City Controller Unit Test should create a city" duration="14"/>
+    <testCase name="City Controller Unit Test should throw an error when creating a city that already exists" duration="20"/>
+    <testCase name="City Controller Unit Test should update a city" duration="15"/>
+    <testCase name="City Controller Unit Test should throw an error when updating a city that does not exist" duration="17"/>
+    <testCase name="City Controller Unit Test should delete a city by ID" duration="16"/>
+    <testCase name="City Controller Unit Test should throw an error when deleting a city that does not exist" duration="20"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/webhooks/webhook.service.test.ts">
+    <testCase name="Webhook Service Unit Test should be defined" duration="4"/>
+    <testCase name="Webhook Service Unit Test should create a new webhook" duration="9"/>
+    <testCase name="Webhook Service Unit Test should throw an error when creating a webhook with a city that does not exist" duration="12"/>
+    <testCase name="Webhook Service Unit Test should delete a webhook by ID" duration="6"/>
+    <testCase name="Webhook Service Unit Test should process webhook event" duration="8"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/cities/city.service.test.ts">
+    <testCase name="City Service Unit Test should be defined" duration="6"/>
+    <testCase name="City Service Unit Test should create a new city" duration="9"/>
+    <testCase name="City Service Unit Test should throw an error if city with the same name aldready exists" duration="18"/>
+    <testCase name="City Service Unit Test should update a city" duration="18"/>
+    <testCase name="City Service Unit Test should find a city by params" duration="4"/>
+    <testCase name="City Service Unit Test should delete a city by ID" duration="11"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/webhooks/webhook.controller.test.ts">
+    <testCase name="Webhook Controller Unit Test should be defined" duration="5"/>
+    <testCase name="Webhook Controller Unit Test should create a new webhook for a city" duration="25"/>
+    <testCase name="Webhook Controller Unit Test should throw an error if city does not exist" duration="12"/>
+    <testCase name="Webhook Controller Unit Test should delete webhook by ID" duration="18"/>
+    <testCase name="Webhook Controller Unit Test should throw an error if webhook does not exist" duration="19"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/temperatures/temperature.controller.test.ts">
+    <testCase name="Temperature Controller Unit Test should be defined" duration="5"/>
+    <testCase name="Temperature Controller Unit Test should create a new temperature for a city" duration="17"/>
+    <testCase name="Temperature Controller Unit Test should throw an error when creating a temperature for a city that does not exist" duration="15"/>
+    <testCase name="Temperature Controller Unit Test should handle temperature webhook message" duration="37"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/forecasts/forecast.controller.test.ts">
+    <testCase name="Forecast Controller Unit Test should be defined" duration="7"/>
+    <testCase name="Forecast Controller Unit Test should get forecast detail for a particular city" duration="20"/>
+    <testCase name="Forecast Controller Unit Test should throw an error when getting forecast detail for a city that does not exist" duration="23"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/temperatures/temperature.service.test.ts">
+    <testCase name="Temperature Service Unit Test should be defined" duration="5"/>
+    <testCase name="Temperature Service Unit Test should create a new temperature" duration="19"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/forecasts/forecast.service.test.ts">
+    <testCase name="Forecast Service Unit Test should get forecast for a particular city" duration="20"/>
+    <testCase name="Forecast Service Unit Test should throw an error if city does not exist while fetching forecast" duration="15"/>
   </file>
   <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/health/health.controller.test.ts">
     <testCase name="Health Controller Unit Test should be defined" duration="4"/>
-    <testCase name="Health Controller Unit Test should return health status" duration="20"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/forecasts/forecast.controller.test.ts">
-    <testCase name="Forecast Controller Unit Test should be defined" duration="4"/>
-    <testCase name="Forecast Controller Unit Test should get forecast detail for a particular city" duration="22"/>
-    <testCase name="Forecast Controller Unit Test should throw an error when getting forecast detail for a city that does not exist" duration="17"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/controllers/temperatures/temperature.controller.test.ts">
-    <testCase name="Temperature Controller Unit Test should be defined" duration="11"/>
-    <testCase name="Temperature Controller Unit Test should create a new temperature for a city" duration="18"/>
-    <testCase name="Temperature Controller Unit Test should throw an error when creating a temperature for a city that does not exist" duration="13"/>
-    <testCase name="Temperature Controller Unit Test should handle temperature webhook message" duration="27"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/forecasts/forecast.service.test.ts">
-    <testCase name="Forecast Service Unit Test should get forecast for a particular city" duration="21"/>
-    <testCase name="Forecast Service Unit Test should throw an error if city does not exist while fetching forecast" duration="20"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/services/temperatures/temperature.service.test.ts">
-    <testCase name="Temperature Service Unit Test should be defined" duration="6"/>
-    <testCase name="Temperature Service Unit Test should create a new temperature" duration="27"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/repositories/webhooks/webhook.repository.test.ts">
-    <testCase name="Webhook Repository Unit Test should be defined" duration="6"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/repositories/temperatures/temperature.repository.test.ts">
-    <testCase name="Temperature Repository Unit Test should be defined" duration="5"/>
+    <testCase name="Health Controller Unit Test should return health status" duration="15"/>
   </file>
   <file path="/home/theshedman/Documents/github/personal/acumen/src/app/models/temperatures/model.test.ts">
     <testCase name="Temperature Model Unit Test should be defined" duration="2"/>
-    <testCase name="Temperature Model Unit Test should be an instance of a BaseModel" duration="2"/>
+    <testCase name="Temperature Model Unit Test should be an instance of a BaseModel" duration="4"/>
     <testCase name="Temperature Model Unit Test should be an instance of a Model" duration="2"/>
-    <testCase name="Temperature Model Unit Test should have a tableName" duration="2"/>
-    <testCase name="Temperature Model Unit Test should have a jsonSchema" duration="9"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/models/webhooks/model.test.ts">
-    <testCase name="Webhook Model Unit Test should be defined" duration="2"/>
-    <testCase name="Webhook Model Unit Test should be an instance of a BaseModel" duration="2"/>
-    <testCase name="Webhook Model Unit Test should be an instance of a Model" duration="3"/>
-    <testCase name="Webhook Model Unit Test should have a tableName" duration="3"/>
-    <testCase name="Webhook Model Unit Test should have a jsonSchema" duration="3"/>
-  </file>
-  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/models/base/model.test.ts">
-    <testCase name="Base Model Unit Test should be defined" duration="2"/>
-    <testCase name="Base Model Unit Test should be an instance of a Model" duration="2"/>
-    <testCase name="Base Model Unit Test should have a idColumn" duration="2"/>
-    <testCase name="Base Model Unit Test should have a model path" duration="1"/>
+    <testCase name="Temperature Model Unit Test should have a tableName" duration="4"/>
+    <testCase name="Temperature Model Unit Test should have a jsonSchema" duration="3"/>
   </file>
   <file path="/home/theshedman/Documents/github/personal/acumen/src/app/models/cities/model.test.ts">
     <testCase name="City Model Unit Test should be defined" duration="2"/>
     <testCase name="City Model Unit Test should be an instance of a BaseModel" duration="2"/>
     <testCase name="City Model Unit Test should be an instance of a Model" duration="2"/>
-    <testCase name="City Model Unit Test should have a tableName" duration="4"/>
-    <testCase name="City Model Unit Test should have a jsonSchema" duration="5"/>
+    <testCase name="City Model Unit Test should have a tableName" duration="2"/>
+    <testCase name="City Model Unit Test should have a jsonSchema" duration="2"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/models/webhooks/model.test.ts">
+    <testCase name="Webhook Model Unit Test should be defined" duration="1"/>
+    <testCase name="Webhook Model Unit Test should be an instance of a BaseModel" duration="2"/>
+    <testCase name="Webhook Model Unit Test should be an instance of a Model" duration="2"/>
+    <testCase name="Webhook Model Unit Test should have a tableName" duration="2"/>
+    <testCase name="Webhook Model Unit Test should have a jsonSchema" duration="3"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/models/base/model.test.ts">
+    <testCase name="Base Model Unit Test should be defined" duration="1"/>
+    <testCase name="Base Model Unit Test should be an instance of a Model" duration="2"/>
+    <testCase name="Base Model Unit Test should have a idColumn" duration="2"/>
+    <testCase name="Base Model Unit Test should have a model path" duration="2"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/repositories/temperatures/temperature.repository.test.ts">
+    <testCase name="Temperature Repository Unit Test should be defined" duration="3"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/repositories/webhooks/webhook.repository.test.ts">
+    <testCase name="Webhook Repository Unit Test should be defined" duration="3"/>
+  </file>
+  <file path="/home/theshedman/Documents/github/personal/acumen/src/app/repositories/cities/city.repository.test.ts">
+    <testCase name="City Repository Unit Test should be defined" duration="4"/>
   </file>
 </testExecutions>
